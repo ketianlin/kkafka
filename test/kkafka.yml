@@ -1,0 +1,14 @@
+go:
+  config:
+    server_type: file
+    env: test
+    type: .yml
+    mid: "-"
+    path: /home/ke666/my_codes/sj_go_codes/kkafka/test
+    used: kafka
+    prefix:
+      rocketmq: k-kafka
+  logger:
+    level: debug
+    out: console,file
+    file: ./logs
